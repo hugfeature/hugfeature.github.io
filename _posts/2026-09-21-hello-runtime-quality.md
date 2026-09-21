@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "为什么建这个站"
-date: 2026-09-21 22:20:00 +0800
+date: 2026-09-21 21:50:00 +0800
 categories: [AI-Testing, Agent-Reliability]
 ---
 
