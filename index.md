@@ -1,21 +1,24 @@
 ---
 layout: home
-title: 测试进化论
+title: runtime质量论
 ---
 
-# 测试进化论
+# runtime质量论
 
-记录 AI Testing、Harness、Agent Reliability，以及真实工程里的质量问题。
+**Agent Reliability · AI Testing · Runtime Quality**
 
-这里不追热点式堆概念，主要沉淀我在实际工作和项目中形成的方法、实验和工具。
+记录 AI 系统从生成、执行到验证过程中的可靠性问题，以及 Harness、Eval、Trace、Failure Regression 和 Quality Gate 的工程实践。
+
+这里主要沉淀真实项目中的方法、实验、失败案例和可复用工具。
 
 ## 关注方向
 
+- Agent Reliability
 - AI Testing / AI Eval
 - Agent Harness
 - Trace / Evidence
 - Failure Corpus / Regression
-- Agent Runtime Reliability
+- Quality Gate
 
 ## Projects
 
