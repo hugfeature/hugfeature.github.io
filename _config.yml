@@ -1,0 +1,15 @@
+title: 测试进化论
+description: AI Testing · Harness · Agent Reliability
+url: "https://hugfeature.github.io"
+baseurl: ""
+theme: minima
+lang: zh-CN
+author: hugfeature
+
+minima:
+  skin: auto
+
+header_pages:
+  - about.md
+
+show_excerpts: true
