@@ -29,7 +29,7 @@ permalink: /harness/
 
 
 1. [Agent Harness 是什么？为什么它正在成为 Agent 工程的关键一层](/harness/what-is-agent-harness/) ✅
-2. Agent、Agent Framework、Workflow、Runtime、Harness 到底有什么区别？
+2. [Agent、Framework、Workflow、Runtime、Harness 到底有什么区别？](/harness/agent-framework-workflow-runtime-harness/) ✅
 3. 2026 年 Agent Harness / Runtime 工具有哪些？
 4. OpenAI Agents SDK 入门：从安装到第一个 Agent
 5. smolagents 入门：几十行代码跑一个 Agent Loop
