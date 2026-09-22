@@ -4,6 +4,10 @@
 {% if page.url == '/about/' %}
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","@id":{{ '/about/#author' | absolute_url | jsonify }},"name":"hugfeature","url":{{ '/about/' | absolute_url | jsonify }},"sameAs":["https://github.com/hugfeature"],"knowsAbout":["Agent Reliability","Agent Harness","AI Testing","AI Evaluation"]}</script>
 {% endif %}
+{% if page.url == '/harness/' %}
+{% assign harness_entries = site.posts | where: 'series', 'agent-harness' | sort: 'series_order' %}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":{{ '/harness/#collection' | absolute_url | jsonify }},"name":{{ page.title | jsonify }},"url":{{ page.url | absolute_url | jsonify }},"description":{{ page.description | jsonify }},"about":{"@type":"Thing","name":"Agent Harness"},"mainEntity":{"@type":"ItemList","numberOfItems":{{ harness_entries.size }},"itemListElement":[{% for entry in harness_entries %}{"@type":"ListItem","position":{{ forloop.index }},"name":{{ entry.title | jsonify }},"url":{{ entry.url | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}}</script>
+{% endif %}
 {% unless page.url == '/' or page.noindex %}
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ '/' | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ '/' | absolute_url | jsonify }}},{% if page.series %}{"@type":"ListItem","position":2,"name":"Agent Harness","item":{{ '/harness/' | absolute_url | jsonify }}},{"@type":"ListItem","position":3,"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}{% else %}{"@type":"ListItem","position":2,"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}{% endif %}]}</script>
 {% endunless %}
