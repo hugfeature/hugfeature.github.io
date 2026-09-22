@@ -1,0 +1,34 @@
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_posts/**"
+      - "_drafts/**"
+      - "*.md"
+      - "_config.yml"
+      - "_includes/**"
+      - "_layouts/**"
+      - "_data/**"
+      - "scripts/indexnow_submit.py"
+      - ".github/workflows/indexnow.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Submit changed URLs to IndexNow
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: python3 scripts/indexnow_submit.py "$BEFORE_SHA" "$AFTER_SHA"
