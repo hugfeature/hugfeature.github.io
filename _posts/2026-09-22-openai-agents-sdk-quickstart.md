@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "OpenAI Agents SDK 入门：从安装到第一个可调用工具的 Agent"
+title: "OpenAI Agents SDK 教程：安装、Tool、Session 与 Trace"
 date: 2026-09-22 16:15:00 +0800
 categories: [Agent-Harness, Tutorial]
 permalink: /harness/openai-agents-sdk-quickstart/
-description: "用一个最小可运行示例理解 OpenAI Agents SDK 的 Agent、Runner、Tool、Session 与 Trace，以及这些组件和 Harness 的关系。"
+description: "OpenAI Agents SDK 入门教程：从安装开始，跑通 Agent、Runner、Tool、SQLiteSession 与 Tracing，并理解它们和 Agent Harness 的关系。"
 tags: ["agent-harness", "openai-agents-sdk", "tutorial", "agent-runtime"]
 series: agent-harness
 series_order: 4
