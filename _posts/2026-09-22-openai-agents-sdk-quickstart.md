@@ -538,7 +538,7 @@ Agent(...)
 
 一旦这件事看清楚，你就可以开始把 SDK 拆开，自己实现一个最小 Harness。
 
-下一篇实践文章：[不用框架，自己写一个最小 Agent Harness](/harness/build-minimal-agent-harness/)
+下一篇：[smolagents 入门：几十行代码跑一个 Agent Loop](/harness/smolagents-agent-loop-quickstart/)
 
 ---
 
