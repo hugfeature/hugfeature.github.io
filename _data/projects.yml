@@ -1,0 +1,6 @@
+- name: Engram
+  description: Agent Continuity · 探索任务中断后的状态恢复与执行连续性。
+  url: https://github.com/hugfeature/engram
+- name: Drift
+  description: Agent Runtime Observability · 关注执行过程中的任务偏移与可观测性。
+  url: https://github.com/hugfeature/drift

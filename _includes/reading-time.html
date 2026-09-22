@@ -1,0 +1,3 @@
+{%- assign chars = include.post.content | strip_html | strip_newlines | size -%}
+{%- assign minutes = chars | divided_by: 400.0 | ceil | at_least: 1 -%}
+约 {{ minutes }} 分钟

@@ -1,0 +1,9 @@
+---
+layout: page
+title: 专题与标签
+description: 按 Agent Harness、Agent Reliability、AI Eval、Trace、Regression 与 Quality Gate 探索文章。
+permalink: /tags/
+eyebrow: TOPICS
+---
+<div class="topic-path">{% for topic in site.data.topics %}<a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.name }} →</a>{% endfor %}</div>
+{% assign sorted_tags = site.tags | sort %}{% for tag in sorted_tags %}{% assign topic = site.data.topics | where: 'slug', tag[0] | first %}<section class="tag-group" id="{{ tag[0] | slugify: 'default' }}"><h2>{{ topic.name | default: tag[0] }} <small>{{ tag[1].size }} 篇</small></h2><ul>{% for post in tag[1] %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endfor %}</ul></section>{% endfor %}

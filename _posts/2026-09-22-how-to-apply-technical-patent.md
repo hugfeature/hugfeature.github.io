@@ -1,8 +1,13 @@
 ---
 layout: post
+permalink: /engineering/patent/2026/09/21/how-to-apply-technical-patent.html
 title: "如何申请技术专利：从一个技术点，到一份能提交的交底书"
 date: 2026-09-22 07:50:00 +0800
 categories: [Engineering, Patent]
+tags: ["工程实践", "技术专利"]
+updated: 2026-09-22 08:27:38 +0800
+last_modified_at: 2026-09-22 08:27:38 +0800
+description: "面向工程师的技术专利材料准备方法：梳理现有技术、核心差异、技术效果与实施过程，形成可沟通的技术交底书。"
 ---
 
 很多工程师第一次接触专利时，最容易把它理解成：

@@ -1,16 +1,48 @@
 title: runtime质量论
-description: Agent Reliability · AI Testing · Runtime Quality
-url: "https://hugfeature.github.io"
+tagline: Agent Reliability · Harness · AI Testing · Runtime Quality
+description: 研究 AI 系统从生成、执行、验证到交付过程中的可靠性问题，记录 Agent Harness、AI Eval、Trace、Failure Regression 与 Quality Gate 的工程实践。
+url: https://hugfeature.github.io
 baseurl: ""
 theme: minima
 lang: zh-CN
-author: hugfeature
-
-minima:
-  skin: auto
-
-header_pages:
-  - harness.md
-  - about.md
-
-show_excerpts: true
+locale: zh_CN
+timezone: Asia/Shanghai
+author:
+  name: hugfeature
+  url: https://github.com/hugfeature
+social:
+  name: hugfeature
+  links:
+    - https://github.com/hugfeature
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+# Paste real verification tokens here after creating the search properties.
+webmaster_verifications:
+  google: ""
+  bing: ""
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/social-card.png
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      toc: true
+exclude:
+  - README.md
+  - AUDIT.md
+  - VALIDATION.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - node_modules

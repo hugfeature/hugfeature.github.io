@@ -1,0 +1,5 @@
+---
+layout: default
+---
+<div class="page-header"><p class="eyebrow">RUNTIME / {{ page.eyebrow | default: 'NOTEBOOK' }}</p><h1>{{ page.title }}</h1>{% if page.description %}<p>{{ page.description }}</p>{% endif %}</div>
+<div class="page-content prose">{{ content }}</div>

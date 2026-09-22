@@ -1,0 +1,1 @@
+<div class="tags">{% for tag in include.tags %}{% assign topic = site.data.topics | where: 'slug', tag | first %}{% if topic %}<a class="tag" href="{{ '/topics/' | append: tag | append: '/' | relative_url }}">{{ topic.name }}</a>{% else %}<a class="tag" href="{{ '/tags/' | relative_url }}#{{ tag | slugify: 'default' }}">{{ tag | escape }}</a>{% endif %}{% endfor %}</div>

@@ -1,0 +1,3 @@
+{% for series in site.data.series %}{% assign entries = site.posts | where: 'series', series.id %}{% assign latest = entries | sort: 'last_modified_at' | last %}
+<article class="series-feature"><div><p class="eyebrow">SERIES / {{ forloop.index | prepend: '0' }}</p><h3><a href="{{ series.url | relative_url }}">{{ series.title }}</a></h3><p>{{ series.description }}</p><p class="meta">{{ entries.size }} 篇已发布{% if latest %} · 最近更新 {{ latest.last_modified_at | default: latest.date | date: '%Y.%m.%d' }}{% endif %}</p></div><a class="text-link" href="{{ series.url | relative_url }}">进入系列 <span aria-hidden="true">→</span></a></article>
+{% endfor %}

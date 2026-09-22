@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Agent Harness
+title: Agent Harness：从入门到 Reliability
+description: 从 Agent Harness 的基本概念到执行机制、Trace、Eval、Regression 与 Quality Gate，建立 AI 工程可靠性的知识路径。
+eyebrow: SERIES / 01
 permalink: /harness/
 ---
 
-# Agent Harness：从入门到 Reliability
 
 这个专栏会从基础概念、工具和 Demo 写起，再逐步进入 Runtime、Trace、Evidence、Failure Regression 和 Quality Gate。
 
@@ -12,7 +13,20 @@ permalink: /harness/
 
 > **一个 Agent 做完任务以后，我们凭什么相信它？**
 
-## 系列目录
+## 已发布文章
+
+{% assign entries = site.posts | where: 'series', 'agent-harness' | sort: 'series_order' %}
+{% assign latest = entries | sort: 'last_modified_at' | last %}
+当前 **{{ entries.size }} 篇** · 最近更新 {{ latest.last_modified_at | default: latest.date | date: '%Y.%m.%d' }}
+
+{% for entry in entries %}
+- [{{ entry.title }}]({{ entry.url | relative_url }})
+{% endfor %}
+
+## 系列规划
+
+以下是写作路线；除已发布文章外，其余章节均为规划中。
+
 
 1. [Agent Harness 是什么？为什么它正在成为 Agent 工程的关键一层](/harness/what-is-agent-harness/) ✅
 2. Agent、Agent Framework、Workflow、Runtime、Harness 到底有什么区别？
@@ -39,3 +53,8 @@ permalink: /harness/
 如果你更关心 Agent Reliability，可以重点关注：
 
 **Harness → Trace → Verification → Failure → Regression → Quality Gate**
+
+
+## 按问题探索
+
+<div class="topic-path">{% for topic in site.data.topics %}<a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.name }} →</a>{% endfor %}</div>

@@ -1,0 +1,24 @@
+- slug: agent-harness
+  name: Agent Harness
+  summary: 从 Agent Loop 到受控执行
+  description: 理解 Context、Tool、State 与执行边界，建立可维护的 Agent Harness。
+- slug: agent-reliability
+  name: Agent Reliability
+  summary: 让成功有证据，让失败可定位
+  description: 研究 AI Agent 可靠性：任务结果、执行过程、副作用与恢复机制。
+- slug: ai-eval
+  name: AI Eval
+  summary: 用验证连接生成与交付
+  description: 从 AI 测试、大模型测试到 Agent 评测，关注可复现的验证与评价标准。
+- slug: trace-evidence
+  name: Trace & Evidence
+  summary: 重建过程，验证结果
+  description: 连接 Agent Observability、Agent Trace 与独立执行证据。
+- slug: failure-regression
+  name: Failure Regression
+  summary: 把一次失败变成持续回归
+  description: 从 Failure Corpus 到 Agent Regression Testing，让真实失败成为测试资产。
+- slug: quality-gate
+  name: Quality Gate
+  summary: 把可靠性落到交付准入
+  description: 围绕验证证据、风险规则和回归结果，讨论 Merge / Release 的质量判据。

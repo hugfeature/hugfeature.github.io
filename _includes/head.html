@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+{% seo %}
+{% feed_meta %}
+{% if page.noindex %}<meta name="robots" content="noindex,follow">{% endif %}
+<link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+{% if page.layout == 'post' and page.updated %}<meta property="article:modified_time" content="{{ page.updated | date_to_xmlschema }}">{% endif %}
+{% include schema.html %}

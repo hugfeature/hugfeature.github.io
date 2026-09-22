@@ -1,8 +1,13 @@
 ---
 layout: post
+permalink: /agent-reliability/ai-testing/2026/09/21/agent-hidden-failures.html
 title: "Agent 最危险的不是失败，而是“最终通过，但过程已经失控”"
 date: 2026-09-21 21:00:00 +0800
 categories: [Agent-Reliability, AI-Testing]
+tags: ["agent-reliability", "ai-eval", "trace-evidence", "failure-regression", "quality-gate"]
+updated: 2026-09-22 08:27:38 +0800
+last_modified_at: 2026-09-22 08:27:38 +0800
+description: "Agent 最终通过并不代表过程可靠：从执行轨迹、独立证据、失败回归到 Quality Gate，讨论 Agent Reliability 的工程判断。"
 ---
 
 很多团队评估 Agent，最后都会落到一个最简单的问题：

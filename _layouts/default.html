@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'zh-CN' }}">
+<head>{% include head.html %}</head>
+<body id="top">
+<a class="skip-link" href="#main">跳到正文</a>
+{% if page.layout == 'post' %}<div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>{% endif %}
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="runtime质量论首页"><span class="brand-mark" aria-hidden="true">r<span>.</span></span><span>runtime<span class="brand-cn">质量论</span></span></a>
+    <nav aria-label="主导航">
+      <a href="{{ '/harness/' | relative_url }}" {% if page.url contains '/harness/' %}aria-current="page"{% endif %}>Harness</a>
+      <a href="{{ '/tags/' | relative_url }}" {% if page.url contains '/topics/' or page.url == '/tags/' %}aria-current="page"{% endif %}>专题</a>
+      <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>关于</a>
+    </nav>
+    <div class="header-tools"><a class="search-link" href="{{ '/search/' | relative_url }}">搜索 <span aria-hidden="true">⌕</span></a><button id="theme-toggle" hidden type="button" aria-label="主题：跟随系统。点击切换为浅色">◐</button></div>
+  </div>
+</header>
+<main id="main" class="shell" tabindex="-1">{{ content }}</main>
+<footer class="site-footer shell"><div><a class="footer-name" href="{{ '/' | relative_url }}">runtime质量论</a><p>让执行受控，让结果可验证，让失败可回归。</p></div><div class="footer-links"><a href="https://github.com/hugfeature">GitHub ↗</a><a href="{{ '/series/' | relative_url }}">系列</a><a href="{{ '/feed.xml' | relative_url }}">RSS</a><a href="{{ '/about/' | relative_url }}">关于</a></div><small>© {{ site.time | date: '%Y' }} hugfeature · Built with Jekyll & GitHub Pages</small></footer>
+<a href="#top" id="back-to-top" class="back-to-top" aria-label="返回顶部" hidden>↑</a>
+</body>
+</html>

@@ -5,6 +5,11 @@ date: 2026-09-22 07:50:00 +0800
 categories: [Agent-Harness, Agent-Reliability]
 permalink: /harness/what-is-agent-harness/
 description: "从模型调用、Agent Loop、Tool、Context、State 到 Trace，解释 Agent Harness 在 Agent 系统里到底负责什么。"
+tags: ["agent-harness", "agent-reliability", "trace-evidence"]
+updated: 2026-09-22 08:27:38 +0800
+last_modified_at: 2026-09-22 08:27:38 +0800
+series: agent-harness
+series_order: 1
 ---
 
 > **Agent Harness 系列 #01**  
