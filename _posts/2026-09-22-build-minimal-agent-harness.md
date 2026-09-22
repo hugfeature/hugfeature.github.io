@@ -637,7 +637,7 @@ Harness 决定：
 
 后面我们会继续进入更深的一层：
 
-[Agent 为什么需要 Harness：模型负责决策，系统负责约束](/harness/why-agent-needs-harness/)
+[一个 Agent Loop 到底是怎么跑起来的？](/harness/how-agent-loop-works/)
 
 ---
 
