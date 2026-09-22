@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import json
-import re
 import subprocess
 import sys
 import urllib.error
@@ -15,7 +14,7 @@ HOST = "hugfeature.github.io"
 BASE = f"https://{HOST}"
 KEY = "18cc8171cbb91d26cec196aa1f0b0e9f"
 KEY_LOCATION = f"{BASE}/{KEY}.txt"
-SITE_WIDE = {"_config.yml", "harness.md", "index.md"}
+SITE_WIDE = {"_config.yml", "harness.md", "index.md", "scripts/indexnow_submit.py"}
 SITE_WIDE_PREFIXES = ("_layouts/", "_includes/", "_data/")
 
 
@@ -36,9 +35,9 @@ def front_matter_permalink(path: Path) -> str | None:
     if not path.is_file():
         return None
     text = path.read_text(encoding="utf-8")
-    m = re.search(r"(?m)^permalink:\s*["']?([^"'\n]+)", text)
-    if m:
-        return m.group(1).strip()
+    for line in text.splitlines():
+        if line.startswith("permalink:"):
+            return line.split(":", 1)[1].strip().strip("\"'")
     if path.name == "index.md":
         return "/"
     return None
