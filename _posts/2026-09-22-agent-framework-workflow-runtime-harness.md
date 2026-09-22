@@ -596,9 +596,7 @@ Agent 经常重复调用工具：
 
 **谁在控制执行。**
 
-下一篇我会进入更偏流量和工具的一篇：
-
-**《2026 年 Agent Harness / Runtime 工具有哪些？》**
+下一篇：[2026 年 Agent Harness / Runtime 工具有哪些？一张表看懂主流方案](/harness/agent-harness-runtime-tools-2026/)
 
 我们会把主流方案按“谁负责 Loop、Tool、State、Trace、Permission”真正拆开，而不是只列一个工具清单。
 
