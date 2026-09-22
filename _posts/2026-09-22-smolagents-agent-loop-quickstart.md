@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "smolagents 入门：几十行代码跑一个 Agent Loop"
+title: "smolagents 教程：用 CodeAgent 跑通一个 Agent Loop"
 date: 2026-09-22 17:30:00 +0800
 categories: [Agent-Harness, Tutorial]
 permalink: /harness/smolagents-agent-loop-quickstart/
-description: "用 Hugging Face smolagents 跑通一个最小 Agent Loop，理解 CodeAgent、ToolCallingAgent、Tool、max_steps、planning_interval 与执行安全边界。"
+description: "Hugging Face smolagents 入门教程：用 CodeAgent / ToolCallingAgent 跑通 Agent Loop，理解 max_steps、planning_interval、step_callbacks 与代码执行安全边界。"
 tags: ["agent-harness", "smolagents", "agent-loop", "tutorial"]
 series: agent-harness
 series_order: 5
