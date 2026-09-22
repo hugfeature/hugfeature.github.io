@@ -9,7 +9,7 @@ locale: zh_CN
 timezone: Asia/Shanghai
 author:
   name: hugfeature
-  url: https://github.com/hugfeature
+  url: https://hugfeature.github.io/about/
 social:
   name: hugfeature
   links:
@@ -37,6 +37,8 @@ defaults:
     values:
       layout: post
       toc: true
+      seo:
+        type: BlogPosting
 exclude:
   - README.md
   - AUDIT.md
