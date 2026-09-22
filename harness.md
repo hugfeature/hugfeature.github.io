@@ -36,19 +36,19 @@ permalink: /harness/
 6. [不用 Agent Framework，自己写一个最小 Harness](/harness/build-minimal-agent-harness/) ✅
 7. [一个 Agent Loop 到底是怎么跑起来的？](/harness/how-agent-loop-works/) ✅
 8. [Agent 为什么需要 Harness：模型负责决策，系统负责约束](/harness/why-agent-needs-harness/) ✅
-9. Harness 到底应该管什么？
-10. Trace 不是日志：Harness 应该记录哪些执行证据？
-11. Agent 调错工具怎么办：Timeout、Retry、Budget 与 Side Effect
-12. 结果正确就够了吗？给 Agent 设计 Evidence Contract
-13. 一次 Agent 失败，怎么变成一条 Regression Case？
-14. Harness 和 Eval 平台到底是什么关系？
-15. Agent Harness 的终点：从执行引擎走向 Quality Gate
+9. [Harness 到底应该管什么？从 Agent Loop 到 Reliability Boundary](/harness/what-should-agent-harness-own/) ✅
+10. [Trace 不是日志：Harness 应该记录哪些执行证据？](/harness/trace-is-not-just-logs/) ✅
+11. [Agent 调错工具怎么办：Timeout、Retry、Budget 与 Side Effect](/harness/tool-failure-timeout-retry-budget-side-effect/) ✅
+12. [结果正确就够了吗？给 Agent 设计 Evidence Contract](/harness/agent-evidence-contract/) ✅
+13. [一次 Agent 失败，怎么变成一条 Regression Case？](/harness/failure-to-regression-case/) ✅
+14. [Harness 和 Eval 平台到底是什么关系？](/harness/harness-vs-eval-platform/) ✅
+15. [Agent Harness 的终点：从执行引擎走向 Quality Gate](/harness/harness-to-quality-gate/) ✅
 
 ## 阅读路线
 
 如果你刚开始接触 Agent，建议从 **#01 → #02 → #04 → #05 → #06 → #07 → #08** 开始。
 
-如果你已经在做 Agent 工程，建议直接进入 **#08 → #09 → #10 → #13 → #15**。
+如果你已经在做 Agent 工程，建议直接进入 **#08 → #09 → #10 → #11 → #12 → #13 → #14 → #15**。
 
 如果你更关心 Agent Reliability，可以重点关注：
 
