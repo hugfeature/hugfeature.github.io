@@ -6,7 +6,9 @@ import json
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.request
+import time
 from pathlib import Path
 
 HOST = "hugfeature.github.io"
@@ -67,10 +69,25 @@ def urls_for_changes(paths: list[str]) -> set[str]:
     return urls
 
 
+def wait_for_key() -> None:
+    for attempt in range(12):
+        try:
+            with urllib.request.urlopen(KEY_LOCATION, timeout=10) as response:
+                content = response.read().decode("utf-8").strip()
+                if response.status == 200 and content == KEY:
+                    print("IndexNow key is live.")
+                    return
+        except Exception as exc:
+            print(f"Waiting for deployed key ({attempt + 1}/12): {exc}")
+        time.sleep(10)
+    raise RuntimeError(f"IndexNow key not reachable at {KEY_LOCATION}")
+
+
 def submit(urls: set[str]) -> None:
     if not urls:
         print("No public URLs changed; nothing to submit.")
         return
+    wait_for_key()
     payload = {
         "host": HOST,
         "key": KEY,
