@@ -8,6 +8,23 @@ layout: default
 <section class="article-section"><h2>沿着问题继续探索</h2><p class="muted">从执行机制走向验证与交付。</p>{% include tags.html tags=page.tags %}</section>
 {% assign related_count = 0 %}{% capture related_markup %}{% for other in site.posts %}{% unless other.url == page.url %}{% assign overlap = false %}{% if page.series and other.series == page.series %}{% assign overlap = true %}{% endif %}{% for tag in page.tags %}{% if other.tags contains tag %}{% assign overlap = true %}{% endif %}{% endfor %}{% if overlap and related_count < 3 %}<li><a href="{{ other.url | relative_url }}">{{ other.title }}</a><p>{{ other.description }}</p></li>{% assign related_count = related_count | plus: 1 %}{% endif %}{% endunless %}{% endfor %}{% endcapture %}
 {% if related_count > 0 %}<section class="article-section"><h2>相关文章</h2><ul class="related-list">{{ related_markup }}</ul></section>{% endif %}
+{% if page.series %}
+{% assign nav_entries = site.posts | where: 'series', page.series | sort: 'series_order' %}
+{% assign series_prev = nil %}
+{% assign series_next = nil %}
+{% assign found_current = false %}
+{% for entry in nav_entries %}
+  {% if entry.url == page.url %}
+    {% assign found_current = true %}
+  {% elsif found_current and series_next == nil %}
+    {% assign series_next = entry %}
+  {% elsif found_current == false %}
+    {% assign series_prev = entry %}
+  {% endif %}
+{% endfor %}
+<nav class="post-navigation" aria-label="系列上一篇与下一篇"><div>{% if series_prev %}<span>← 系列上一篇</span><a href="{{ series_prev.url | relative_url }}">{{ series_prev.title }}</a>{% endif %}</div><div>{% if series_next %}<span>系列下一篇 →</span><a href="{{ series_next.url | relative_url }}">{{ series_next.title }}</a>{% endif %}</div></nav>
+{% else %}
 <nav class="post-navigation" aria-label="上一篇与下一篇"><div>{% if page.previous %}<span>← 上一篇</span><a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>{% endif %}</div><div>{% if page.next %}<span>下一篇 →</span><a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>{% endif %}</div></nav>
+{% endif %}
 <div class="article-actions"><button type="button" id="share-link" hidden>复制文章链接</button><a href="https://github.com/hugfeature/hugfeature.github.io/issues/new?title={{ page.title | prepend: '文章反馈：' | uri_escape }}&body={{ page.url | absolute_url | uri_escape }}">在 GitHub 反馈 ↗</a><span role="status" id="action-status"></span></div>
 </div></div></article>
