@@ -11,6 +11,10 @@ title: runtime质量论
 
 这里主要沉淀真实项目中的方法、实验、失败案例和可复用工具。
 
+## 专栏
+
+- [Agent Harness：从入门到 Reliability](/harness/) — 概念、工具、实操、Trace、Regression 与 Quality Gate
+
 ## 关注方向
 
 - Agent Reliability
