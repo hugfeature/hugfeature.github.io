@@ -10,6 +10,7 @@ minima:
   skin: auto
 
 header_pages:
+  - harness.md
   - about.md
 
 show_excerpts: true
