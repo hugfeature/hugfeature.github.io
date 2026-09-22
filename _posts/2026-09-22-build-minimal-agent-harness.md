@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "不用 Agent Framework，自己写一个最小 Harness"
+title: "手写 Agent Harness：用 Python 实现 Loop、Tool、Policy 与 Trace"
 date: 2026-09-22 16:20:00 +0800
 categories: [Agent-Harness, Tutorial]
 permalink: /harness/build-minimal-agent-harness/
-description: "从 Agent Loop、Tool Registry、Policy、Trace 和 max_steps 出发，用 Python 自己实现一个最小 Agent Harness。"
+description: "不用 Agent Framework，用 Python 从零实现一个最小 Agent Harness：包含 Model Adapter、Tool Registry、Policy、Trace、max_steps 与执行循环。"
 tags: ["agent-harness", "agent-loop", "python", "tutorial"]
 series: agent-harness
 series_order: 6
