@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "2026 年 Agent Harness / Runtime 工具有哪些？一张表看懂主流方案"
+title: "2026 Agent Harness 工具盘点：OpenAI、Microsoft、Cloudflare、LangGraph"
 date: 2026-09-22 16:10:00 +0800
 categories: [Agent-Harness, Agent-Runtime]
 permalink: /harness/agent-harness-runtime-tools-2026/
-description: "盘点 2026 年主流 Agent Harness / Runtime / Orchestration 工具，并从 Loop、State、Permission、Trace、Recovery 等维度比较。"
+description: "2026 Agent Harness / Runtime 工具盘点：对比 OpenAI Agents SDK、Microsoft Agent Framework、Cloudflare Agents、LangGraph、Google ADK 与 smolagents 的 Loop、State、Trace、Permission 和 Recovery 能力。"
 tags: ["agent-harness", "agent-runtime", "agent-framework", "tools"]
 series: agent-harness
 series_order: 3
