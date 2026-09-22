@@ -32,9 +32,9 @@ permalink: /harness/
 2. [Agent、Framework、Workflow、Runtime、Harness 到底有什么区别？](/harness/agent-framework-workflow-runtime-harness/) ✅
 3. [2026 年 Agent Harness / Runtime 工具有哪些？一张表看懂主流方案](/harness/agent-harness-runtime-tools-2026/) ✅
 4. [OpenAI Agents SDK 入门：从安装到第一个可调用工具的 Agent](/harness/openai-agents-sdk-quickstart/) ✅
-5. smolagents 入门：几十行代码跑一个 Agent Loop
+5. [smolagents 入门：几十行代码跑一个 Agent Loop](/harness/smolagents-agent-loop-quickstart/) ✅
 6. [不用 Agent Framework，自己写一个最小 Harness](/harness/build-minimal-agent-harness/) ✅
-7. 一个 Agent Loop 到底是怎么跑起来的？
+7. [一个 Agent Loop 到底是怎么跑起来的？](/harness/how-agent-loop-works/) ✅
 8. [Agent 为什么需要 Harness：模型负责决策，系统负责约束](/harness/why-agent-needs-harness/) ✅
 9. Harness 到底应该管什么？
 10. Trace 不是日志：Harness 应该记录哪些执行证据？
@@ -46,7 +46,7 @@ permalink: /harness/
 
 ## 阅读路线
 
-如果你刚开始接触 Agent，建议从 **#01 → #02 → #04 → #06** 开始。
+如果你刚开始接触 Agent，建议从 **#01 → #02 → #04 → #05 → #06 → #07 → #08** 开始。
 
 如果你已经在做 Agent 工程，建议直接进入 **#08 → #09 → #10 → #13 → #15**。
 
