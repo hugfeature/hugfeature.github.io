@@ -451,9 +451,7 @@ Quality Gate
 
 **成为 Agent Reliability 真正落地的执行边界。**
 
-下一篇，我们继续把几个最容易混淆的概念拆开：
-
-**Agent、Agent Framework、Workflow、Runtime、Harness 到底有什么区别？**
+下一篇：[Agent、Framework、Workflow、Runtime、Harness 到底有什么区别？](/harness/agent-framework-workflow-runtime-harness/)
 
 ---
 
