@@ -435,9 +435,8 @@ Final Evidence
 
 这和我们前面讨论的“隐藏失败”是同一个问题：
 
-[Agent 最危险的不是失败，而是最终通过但过程已经失控](/2026/09/21/agent-hidden-failures.html)
+[Agent 最危险的不是失败，而是最终通过但过程已经失控](/agent-reliability/ai-testing/2026/09/21/agent-hidden-failures.html)
 
-> 如果站点后续调整了文章 permalink，可从首页搜索该文章标题进入。
 
 ## 九、Recovery 不是让模型“自己想办法”
 
