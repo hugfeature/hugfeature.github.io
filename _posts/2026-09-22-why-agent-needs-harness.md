@@ -618,9 +618,7 @@ BLOCK
 
 这才是 Harness 和 Agent Reliability 真正连接起来的地方。
 
-下一篇将继续拆具体职责：
-
-**Harness 到底应该管什么？**
+下一篇：[Harness 到底应该管什么？从 Agent Loop 到 Reliability Boundary](/harness/what-should-agent-harness-own/)
 
 ---
 
