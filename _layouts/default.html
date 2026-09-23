@@ -9,6 +9,7 @@
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="runtime质量论首页"><span class="brand-mark" aria-hidden="true">r<span>.</span></span><span>runtime<span class="brand-cn">质量论</span></span></a>
     <nav aria-label="主导航">
       <a href="{{ '/harness/' | relative_url }}" {% if page.url contains '/harness/' %}aria-current="page"{% endif %}>Harness</a>
+      <a href="{{ '/eval/' | relative_url }}" {% if page.url contains '/eval/' %}aria-current="page"{% endif %}>Eval</a>
       <a href="{{ '/tags/' | relative_url }}" {% if page.url contains '/topics/' or page.url == '/tags/' %}aria-current="page"{% endif %}>专题</a>
       <a href="{{ '/about/' | relative_url }}" {% if page.url == '/about/' %}aria-current="page"{% endif %}>关于</a>
     </nav>
