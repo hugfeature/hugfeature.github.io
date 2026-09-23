@@ -23,6 +23,8 @@ permalink: /eval/
 
 - **[大模型评测到底在评什么？](/eval/what-is-model-evaluation/)** — 拆开 Benchmark、Model Eval、Business Eval、Grader 和持续回归。
 - **[排行榜第一，为什么到了你的业务里可能不好用？](/eval/why-leaderboard-is-not-enough/)** — 从任务分布、成本、延迟、Tool 和 Failure Set 解释模型选型。
+- **[怎样构造一套真正有用的业务 Eval Dataset？](/eval/how-to-build-business-eval-dataset/)** — 从真实任务、高风险场景和历史失败建立可持续扩展的数据集。
+- **[LLM-as-a-Judge 怎么做才靠谱？](/eval/llm-as-a-judge/)** — Rubric、Pairwise、偏差控制、人工 Gold 和 Judge Regression。
 - **[Model Eval 和 Agent Eval 有什么区别？](/eval/model-eval-vs-agent-eval/)** — 从单次输出评测扩展到 Trace、State、Side Effect 和 Evidence。
 
 ## 第一部分：模型评测
@@ -35,22 +37,28 @@ permalink: /eval/
 
 公开 Benchmark 用于理解通用能力，真实模型选型仍然需要自己的业务 Eval。
 
-## 第二部分：从模型进入 Agent
+## 第二部分：把业务 Eval 做实
 
 ### #03 [Model Eval 和 Agent Eval 有什么区别？从单次输出到完整执行轨迹](/eval/model-eval-vs-agent-eval/)
 
 Agent 不只生成内容，还会调用工具、修改状态和产生副作用，因此 Eval 必须开始检查 Trace、Evidence 与执行过程。
 
-## 后续计划
+### #04 [怎样构造一套真正有用的业务 Eval Dataset？](/eval/how-to-build-business-eval-dataset/)
 
-接下来会继续补：
+Dataset 不是随机样本集合，而应该覆盖真实任务、高风险 Case、历史失败与边界条件，并逐步沉淀为 Failure Corpus。
 
-- 如何构造业务 Eval Dataset；
-- LLM-as-a-Judge 怎么校准；
-- Eval 指标应该怎么设计；
+### #05 [LLM-as-a-Judge 怎么做才靠谱？从 Rubric、偏差到人工校准](/eval/llm-as-a-judge/)
+
+开放任务可以引入 LLM Judge，但 Judge 自己也必须有 Rubric、Human Gold、偏差控制和 Regression。
+
+## 下一阶段
+
+接下来继续补：
+
+- Eval 指标应该怎么设计，为什么 Pass Rate 不够；
+- Offline Eval 与 Online Eval 怎么分工；
 - 线上失败如何进入 Failure Corpus；
-- Offline Eval 与 Online Eval；
-- Agent Trace Grading；
+- Agent Trace Grading 怎么设计；
 - Eval 如何进入 CI / Quality Gate。
 
 如果你更关注 Agent 的执行控制层，可以继续看：
