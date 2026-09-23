@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
-<div class="page-header"><p class="eyebrow">RESEARCH TOPIC</p><h1>{{ page.title }}</h1><p>{{ page.description }}</p></div>
-<section aria-labelledby="topic-posts"><h2 id="topic-posts">专题文章</h2>{% assign entries = site.posts | where_exp: 'post', 'post.tags contains page.topic' %}{% if entries.size > 0 %}{% include post-list.html posts=entries %}{% else %}<p class="empty-state">这个专题正在整理。先从 <a href="{{ '/harness/' | relative_url }}">Agent Harness 系列</a>了解相关执行机制。</p>{% endif %}</section>
-<section class="home-section"><h2>知识路径</h2><p class="muted">执行 → 证据 → 评测 → 回归 → 交付</p><div class="topic-path">{% for topic in site.data.topics %}<a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}" {% if topic.slug == page.topic %}aria-current="page"{% endif %}>{{ topic.name }} →</a>{% endfor %}</div><p><a href="{{ '/harness/' | relative_url }}">按顺序阅读 Harness 系列 →</a></p></section>
+{% assign primary_series_url = '/harness/' %}
+{% assign primary_series_label = 'Agent Harness 系列' %}
+{% if page.topic == 'ai-eval' %}
+  {% assign primary_series_url = '/eval/' %}
+  {% assign primary_series_label = 'AI Eval 系统教程' %}
+{% elsif page.topic == 'agent-harness' %}
+  {% assign primary_series_url = '/harness/' %}
+  {% assign primary_series_label = 'Agent Harness 系列' %}
+{% endif %}
+<div class="page-header"><p class="eyebrow">RESEARCH TOPIC</p><h1>{{ page.title }}</h1><p>{{ page.description }}</p>{% if page.topic == 'ai-eval' %}<p><a href="{{ '/eval/' | relative_url }}">按顺序阅读 AI Eval 系统教程 →</a></p>{% endif %}</div>
+<section aria-labelledby="topic-posts"><h2 id="topic-posts">专题文章</h2>{% assign entries = site.posts | where_exp: 'post', 'post.tags contains page.topic' %}{% if entries.size > 0 %}{% include post-list.html posts=entries %}{% else %}<p class="empty-state">这个专题正在整理。先从 <a href="{{ primary_series_url | relative_url }}">{{ primary_series_label }}</a>了解相关内容。</p>{% endif %}</section>
+<section class="home-section"><h2>知识路径</h2><p class="muted">执行 → 证据 → 评测 → 回归 → 交付</p><div class="topic-path">{% for topic in site.data.topics %}<a href="{{ '/topics/' | append: topic.slug | append: '/' | relative_url }}" {% if topic.slug == page.topic %}aria-current="page"{% endif %}>{{ topic.name }} →</a>{% endfor %}</div><p><a href="{{ primary_series_url | relative_url }}">按顺序阅读 {{ primary_series_label }} →</a></p></section>
