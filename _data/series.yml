@@ -3,6 +3,6 @@
   url: /harness/
   description: 从基础概念、运行机制到 Trace、Eval、Failure Regression 与 Quality Gate，逐步建立可验证的 Agent 执行系统。
 - id: ai-eval
-  title: AI Eval：从模型评测到 Agent Reliability
+  title: AI Eval：从大模型评测到 Agent Reliability
   url: /eval/
-  description: 从 Benchmark、模型评测和业务 Eval，逐步进入 Agent Eval、Trace、Failure Corpus、Regression 与 Quality Gate。
+  description: 从 Benchmark、业务 Eval、Dataset 和 LLM-as-a-Judge，逐步进入 Agent Eval、Trace Grading、Failure Corpus、Regression 与 Quality Gate。
