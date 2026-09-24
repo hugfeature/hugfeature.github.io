@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Agent 会跳步骤：从测试用例生成失败到 Execution Contract Drift"
-date: 2026-09-24 18:50:00 +0800
+date: 2026-09-24 18:40:00 +0800
 categories: [Agent-Reliability, Agent-Harness]
 permalink: /reliability/execution-contract-drift/
 description: "从一次测试用例生成 Agent 的重构出发，讨论为什么 Prompt 无法保证执行流程，以及如何用 Execution Contract、Validator、Trace 和 Drift 检测把 Agent 的过程可靠性变成可验证问题。"
 tags: ["agent-reliability", "agent-harness", "trace-evidence", "failure-regression", "quality-gate"]
-updated: 2026-09-24 18:50:00 +0800
-last_modified_at: 2026-09-24 18:50:00 +0800
+updated: 2026-09-24 21:13:00 +0800
+last_modified_at: 2026-09-24 21:13:00 +0800
 ---
 
 最近在重构一个测试用例生成 Agent 时，我遇到一个很典型的问题：
