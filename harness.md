@@ -91,6 +91,12 @@ Harness 产出可信执行事实，Eval 把这些事实变成跨任务、跨版�
 
 最终把 Trace、Evidence、Regression 和 Eval 接到 Merge / Release，让 Reliability 真正影响交付。
 
+## 第四部分：让自主运行可以被接手
+
+### #16 [让 Agent 下班后继续跑：有界自主运行怎么设计？](/harness/bounded-autonomy-for-agents/)
+
+从任务边界、进展证据、累计预算、停止原因与恢复检查，处理无人值守时的卡住和重复消耗问题。
+
 ## 推荐阅读路线
 
 **刚入门：** #01 → #02 → #03 → #04 → #05 → #06 → #07

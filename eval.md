@@ -74,6 +74,12 @@ Offline 负责发布前的可重复验证，Online 负责在真实分布里发�
 
 建立 Baseline、Hard Gate、Regression、Flaky Policy 与机器可读 Artifact，把 Eval 接进真实交付流程。
 
+## 第四部分：处理真实交付里的输入缺口
+
+### #11 [需求不完整时，测试用例生成的 Gate 应该怎么判？](/eval/test-case-gates-with-incomplete-requirements/)
+
+区分输入缺口、执行错误、用例质量与校验器误判，为可评审草稿和正式测试依据设置不同条件。
+
 ## 两条主线怎么衔接
 
 如果把整个网站的内容压缩成一条链：
