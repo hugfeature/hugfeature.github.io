@@ -3,8 +3,8 @@ layout: post
 title: "测试用例 Agent 的门禁落地：一条需求缺口，应该挡住哪些用例？"
 description: "用一个提交申请的合成示例，说明如何关联需求缺口与测试用例、限制依赖范围，并在规则确认后重新校验，避免局部缺口阻塞全部生成或被悄悄写成确定预期。"
 date: 2026-10-02 21:09:00 +0800
-updated: 2026-10-02
-last_modified_at: 2026-10-02
+updated: 2026-10-02 21:09:00 +0800
+last_modified_at: 2026-10-02 21:09:00 +0800
 categories: [AI-Eval, Quality-Gate, Agent-Reliability]
 permalink: /eval/test-case-gate-dependency-scope/
 tags: [ai-eval, quality-gate, agent-reliability, failure-regression]
