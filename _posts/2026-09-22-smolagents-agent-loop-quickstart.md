@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/how-agent-loop-works/
+  - /harness/openai-agents-sdk-quickstart/
+  - /harness/tool-failure-timeout-retry-budget-side-effect/
 layout: post
 title: "smolagents 教程：用 CodeAgent 跑通一个 Agent Loop"
 date: 2026-09-22 17:30:00 +0800

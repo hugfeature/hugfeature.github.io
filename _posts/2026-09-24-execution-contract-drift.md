@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /agent-reliability/ai-testing/2026/09/21/agent-hidden-failures.html
+  - /harness/trace-is-not-just-logs/
+  - /eval/test-case-gates-with-incomplete-requirements/
 layout: post
 title: "Agent 会跳步骤：从测试用例生成失败到 Execution Contract Drift"
 date: 2026-09-24 18:40:00 +0800

@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign primary_series_url = '/harness/' %}
 {% assign primary_series_label = 'Agent Harness 系列' %}
-{% if page.topic == 'ai-eval' %}
+{% if page.topic == 'ai-eval' or page.topic == 'failure-regression' or page.topic == 'quality-gate' %}
   {% assign primary_series_url = '/eval/' %}
   {% assign primary_series_label = 'AI Eval 系统教程' %}
 {% elsif page.topic == 'agent-harness' %}

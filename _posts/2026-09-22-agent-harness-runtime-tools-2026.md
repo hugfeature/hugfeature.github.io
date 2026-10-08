@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/openai-agents-sdk-quickstart/
+  - /harness/smolagents-agent-loop-quickstart/
+  - /harness/build-minimal-agent-harness/
 layout: post
 title: "2026 Agent Harness / Runtime 工具盘点：主流方案怎么选"
 date: 2026-09-22 16:10:00 +0800

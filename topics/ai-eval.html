@@ -1,7 +1,16 @@
 ---
 layout: topic
-title: AI Eval 相关文章索引
-description: 按主题浏览大模型评测、业务 Eval、LLM-as-a-Judge、Agent Eval、Trace Grading、Failure Corpus 与 Quality Gate 相关文章；系统学习请进入 AI Eval 系列。
+title: AI Eval 问题导航：数据、判据与评测结果
+description: 按模型选择、评测数据、评分器和计算判据查找文章；系统入门可进入 AI Eval 系列。
 topic: ai-eval
 permalink: /topics/ai-eval/
 ---
+
+<p>从当前遇到的问题选读。需要完整学习路线时，可使用页面下方的系列入口。</p>
+<h2>按当前问题选读</h2>
+<ul>
+<li><strong>排行榜很好，业务效果却差：</strong><a href="{{ '/eval/why-leaderboard-is-not-enough/' | relative_url }}">排行榜第一，为什么到了你的业务里可能不好用？</a>。检查评测分布与业务目标。</li>
+<li><strong>不知道怎样准备评测数据：</strong><a href="{{ '/eval/how-to-build-business-eval-dataset/' | relative_url }}">怎样构造一套真正有用的业务 Eval Dataset？</a>。从真实任务、边界和失败样本构造数据集。</li>
+<li><strong>模型评分是否可信：</strong><a href="{{ '/eval/llm-as-a-judge/' | relative_url }}">LLM-as-a-Judge 怎么做才靠谱？从 Rubric、偏差到人工校准</a>。检查评分标准、偏差与人工校准。</li>
+<li><strong>生成用例却测不出计算错误：</strong><a href="{{ '/eval/calculation-test-oracles-and-data/' | relative_url }}">生成了测试用例，为什么还是测不出计算错误？</a>。核对公式、独立预期与数据区分度。</li>
+</ul>

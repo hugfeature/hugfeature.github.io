@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/failure-to-regression-case/
+  - /eval/how-to-build-business-eval-dataset/
+  - /eval/offline-vs-online-eval/
 layout: post
 title: "线上失败怎么变成 Failure Corpus？从一次事故到持续回归"
 date: 2026-09-23 10:20:00 +0800

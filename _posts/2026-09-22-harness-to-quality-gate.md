@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/eval-ci-quality-gate/
+  - /harness/agent-evidence-contract/
+  - /eval/test-case-gates-with-incomplete-requirements/
 layout: post
 title: "Agent Harness 的终点：从执行引擎走向 Quality Gate"
 date: 2026-09-22 17:46:00 +0800

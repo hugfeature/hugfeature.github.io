@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/build-minimal-agent-harness/
+  - /harness/tool-failure-timeout-retry-budget-side-effect/
+  - /harness/bounded-autonomy-for-agents/
 layout: post
 title: "一个 Agent Loop 到底是怎么跑起来的？"
 date: 2026-09-22 17:35:00 +0800

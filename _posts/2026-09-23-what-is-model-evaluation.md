@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/why-leaderboard-is-not-enough/
+  - /eval/model-eval-vs-agent-eval/
+  - /eval/how-to-build-business-eval-dataset/
 layout: post
 title: "大模型评测到底在评什么？Benchmark、Eval、业务评测一次讲清"
 date: 2026-09-23 08:40:00 +0800

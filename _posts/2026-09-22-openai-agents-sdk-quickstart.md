@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/how-agent-loop-works/
+  - /harness/smolagents-agent-loop-quickstart/
+  - /harness/trace-is-not-just-logs/
 layout: post
 title: "OpenAI Agents SDK 教程：安装、Tool、Session 与 Trace"
 date: 2026-09-22 16:15:00 +0800

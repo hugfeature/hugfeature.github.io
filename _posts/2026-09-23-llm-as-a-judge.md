@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/how-to-build-business-eval-dataset/
+  - /eval/agent-trace-grading/
+  - /eval/eval-metrics-beyond-pass-rate/
 layout: post
 title: "LLM-as-a-Judge 怎么做才靠谱？从 Rubric、偏差到人工校准"
 date: 2026-09-23 09:35:00 +0800

@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/bounded-autonomy-for-agents/
+  - /harness/trace-is-not-just-logs/
+  - /harness/verification-loops-and-budget-exhaustion/
 layout: post
 title: "Agent 调错工具怎么办：Timeout、Retry、Budget 与 Side Effect"
 date: 2026-09-22 17:42:00 +0800

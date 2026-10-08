@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/how-agent-loop-works/
+  - /harness/tool-failure-timeout-retry-budget-side-effect/
+  - /harness/trace-is-not-just-logs/
 layout: post
 title: "手写 Agent Harness：用 Python 实现 Loop、Tool、Policy 与 Trace"
 date: 2026-09-22 16:20:00 +0800

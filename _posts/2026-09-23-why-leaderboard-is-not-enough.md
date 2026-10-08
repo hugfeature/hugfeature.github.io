@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/what-is-model-evaluation/
+  - /eval/how-to-build-business-eval-dataset/
+  - /eval/eval-metrics-beyond-pass-rate/
 layout: post
 title: "排行榜第一，为什么到了你的业务里可能不好用？"
 date: 2026-09-23 08:50:00 +0800

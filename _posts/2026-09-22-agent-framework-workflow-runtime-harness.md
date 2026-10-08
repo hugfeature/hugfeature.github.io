@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/what-is-agent-harness/
+  - /harness/what-should-agent-harness-own/
+  - /harness/harness-vs-eval-platform/
 layout: post
 title: "Agent、Framework、Workflow、Runtime、Harness 到底有什么区别？"
 date: 2026-09-22 16:30:00 +0800

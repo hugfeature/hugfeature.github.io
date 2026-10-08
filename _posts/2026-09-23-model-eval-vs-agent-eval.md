@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/what-is-model-evaluation/
+  - /eval/agent-trace-grading/
+  - /harness/agent-evidence-contract/
 layout: post
 title: "Model Eval 和 Agent Eval 有什么区别？从单次输出到完整执行轨迹"
 date: 2026-09-23 09:00:00 +0800

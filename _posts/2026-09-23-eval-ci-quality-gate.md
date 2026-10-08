@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/eval-metrics-beyond-pass-rate/
+  - /harness/harness-to-quality-gate/
+  - /eval/test-case-gate-dependency-scope/
 layout: post
 title: "怎么把 AI Eval 接进 CI / Quality Gate？让评测真正阻断坏版本"
 date: 2026-09-23 10:40:00 +0800

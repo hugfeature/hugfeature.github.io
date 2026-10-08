@@ -1,7 +1,16 @@
 ---
 layout: topic
-title: Quality Gate
-description: 围绕验证证据、风险规则和回归结果，讨论 Merge / Release 的质量判据。
+title: Quality Gate 问题导航：阻塞范围与交付条件
+description: 按需求缺失、误拦截、发布准入和重复验证查找门禁设计方法。
 topic: quality-gate
 permalink: /topics/quality-gate/
 ---
+
+<p>从当前遇到的问题选读。需要完整学习路线时，可使用页面下方的系列入口。</p>
+<h2>按当前问题选读</h2>
+<ul>
+<li><strong>需求不完整，生成就全部停了：</strong><a href="{{ '/eval/test-case-gates-with-incomplete-requirements/' | relative_url }}">需求不完整时，测试用例生成的 Gate 应该怎么判？</a>。区分草稿生成与正式交付。</li>
+<li><strong>一条缺口应该挡住哪些用例：</strong><a href="{{ '/eval/test-case-gate-dependency-scope/' | relative_url }}">测试用例 Agent 的门禁落地：一条需求缺口，应该挡住哪些用例？</a>。按依赖关系限制影响范围。</li>
+<li><strong>评测有结果，却不影响发布：</strong><a href="{{ '/eval/eval-ci-quality-gate/' | relative_url }}">怎么把 AI Eval 接进 CI / Quality Gate？让评测真正阻断坏版本</a>。明确准入条件与例外处理。</li>
+<li><strong>验证反复启动，预算耗尽：</strong><a href="{{ '/harness/verification-loops-and-budget-exhaustion/' | relative_url }}">Harness 什么时候开始为了验证而验证？</a>。检查验证是否提供新增证据。</li>
+</ul>

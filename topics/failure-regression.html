@@ -1,7 +1,16 @@
 ---
 layout: topic
-title: Failure Regression
-description: 从 Failure Corpus 到 Agent Regression Testing，让真实失败成为测试资产。
+title: Failure Regression 问题导航：从故障到回归
+description: 按故障复现、失败样本整理和回归接入选择文章，把已知失败变成可重复检查。
 topic: failure-regression
 permalink: /topics/failure-regression/
 ---
+
+<p>从当前遇到的问题选读。需要完整学习路线时，可使用页面下方的系列入口。</p>
+<h2>按当前问题选读</h2>
+<ul>
+<li><strong>有错误日志，却无法复现：</strong><a href="{{ '/harness/failure-to-regression-case/' | relative_url }}">一次 Agent 失败，怎么变成一条 Regression Case？</a>。补齐输入、环境和预期结果。</li>
+<li><strong>失败案例分散，难以维护：</strong><a href="{{ '/eval/build-failure-corpus/' | relative_url }}">线上失败怎么变成 Failure Corpus？从一次事故到持续回归</a>。整理失败来源、根因和样本。</li>
+<li><strong>线上问题如何进入离线评测：</strong><a href="{{ '/eval/offline-vs-online-eval/' | relative_url }}">Offline Eval 和 Online Eval 有什么区别？一套 AI 系统为什么两个都需要</a>。连接生产观察与固定回归数据。</li>
+<li><strong>修复以后怎样阻止再次发布坏版本：</strong><a href="{{ '/eval/eval-ci-quality-gate/' | relative_url }}">怎么把 AI Eval 接进 CI / Quality Gate？让评测真正阻断坏版本</a>。将回归结果接入交付判断。</li>
+</ul>

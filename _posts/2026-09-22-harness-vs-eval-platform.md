@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/what-should-agent-harness-own/
+  - /eval/model-eval-vs-agent-eval/
+  - /eval/eval-ci-quality-gate/
 layout: post
 title: "Harness 和 Eval 平台到底是什么关系？"
 date: 2026-09-22 17:45:00 +0800

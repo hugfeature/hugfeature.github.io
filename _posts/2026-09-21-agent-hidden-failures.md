@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/agent-evidence-contract/
+  - /eval/agent-trace-grading/
+  - /reliability/execution-contract-drift/
 layout: post
 permalink: /agent-reliability/ai-testing/2026/09/21/agent-hidden-failures.html
 title: "Agent 最危险的不是失败，而是“最终通过，但过程已经失控”"

@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/trace-is-not-just-logs/
+  - /eval/agent-trace-grading/
+  - /harness/harness-to-quality-gate/
 layout: post
 title: "结果正确就够了吗？给 Agent 设计 Evidence Contract"
 date: 2026-09-22 17:43:00 +0800

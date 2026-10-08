@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/tool-failure-timeout-retry-budget-side-effect/
+  - /harness/verification-loops-and-budget-exhaustion/
+  - /harness/agent-evidence-contract/
 layout: post
 title: "让 Agent 下班后继续跑：有界自主运行怎么设计？"
 description: "无人值守 Agent 如何避免卡住、反复重试和消耗 Token？从任务边界、进展证据、预算、停止原因与恢复检查，设计可接手的有界自主运行。"

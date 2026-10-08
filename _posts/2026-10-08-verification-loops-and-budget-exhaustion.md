@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/bounded-autonomy-for-agents/
+  - /eval/eval-ci-quality-gate/
+  - /harness/what-should-agent-harness-own/
 layout: post
 title: "Harness 什么时候开始为了验证而验证？"
 description: "从反复启动验证、预算耗尽但任务未完成的经历出发，讨论验证范围、证据复用、停止条件与预算收尾。保留必要检查，同时让每轮验证回答具体问题。"

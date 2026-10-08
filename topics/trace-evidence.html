@@ -1,7 +1,16 @@
 ---
 layout: topic
-title: Trace & Evidence
-description: 连接 Agent Observability、Agent Trace 与独立执行证据。
+title: Trace & Evidence 问题导航：记录、取证与过程检查
+description: 按无法复盘、缺少结果证据和过程判定问题，选择执行记录与验证方法。
 topic: trace-evidence
 permalink: /topics/trace-evidence/
 ---
+
+<p>从当前遇到的问题选读。需要完整学习路线时，可使用页面下方的系列入口。</p>
+<h2>按当前问题选读</h2>
+<ul>
+<li><strong>日志很多，仍不知道发生了什么：</strong><a href="{{ '/harness/trace-is-not-just-logs/' | relative_url }}">Trace 不是日志：Harness 应该记录哪些执行证据？</a>。把执行记录组织为可关联的事件。</li>
+<li><strong>交付结果缺少独立证据：</strong><a href="{{ '/harness/agent-evidence-contract/' | relative_url }}">结果正确就够了吗？给 Agent 设计 Evidence Contract</a>。说明要保存什么、怎样核对。</li>
+<li><strong>答案正确，调用过程是否合规：</strong><a href="{{ '/eval/agent-trace-grading/' | relative_url }}">Agent Trace Grading 怎么设计？结果正确，过程也可能已经失控</a>。检查工具、状态和副作用。</li>
+<li><strong>执行记录怎样转为回归样本：</strong><a href="{{ '/eval/build-failure-corpus/' | relative_url }}">线上失败怎么变成 Failure Corpus？从一次事故到持续回归</a>。从现场证据整理可复现失败。</li>
+</ul>

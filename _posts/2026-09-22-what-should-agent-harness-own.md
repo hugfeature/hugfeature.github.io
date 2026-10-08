@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/agent-framework-workflow-runtime-harness/
+  - /harness/harness-vs-eval-platform/
+  - /harness/verification-loops-and-budget-exhaustion/
 layout: post
 title: "Harness 到底应该管什么？从 Agent Loop 到 Reliability Boundary"
 date: 2026-09-22 17:40:00 +0800

@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/agent-evidence-contract/
+  - /eval/agent-trace-grading/
+  - /eval/build-failure-corpus/
 layout: post
 title: "Trace 不是日志：Harness 应该记录哪些执行证据？"
 date: 2026-09-22 17:41:00 +0800

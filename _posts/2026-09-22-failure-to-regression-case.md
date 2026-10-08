@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/build-failure-corpus/
+  - /eval/how-to-build-business-eval-dataset/
+  - /eval/eval-ci-quality-gate/
 layout: post
 title: "一次 Agent 失败，怎么变成一条 Regression Case？"
 date: 2026-09-22 17:44:00 +0800

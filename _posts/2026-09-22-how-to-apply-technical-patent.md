@@ -1,4 +1,5 @@
 ---
+related_posts: []
 layout: post
 permalink: /engineering/patent/2026/09/21/how-to-apply-technical-patent.html
 title: "如何申请技术专利：从一个技术点，到一份能提交的交底书"

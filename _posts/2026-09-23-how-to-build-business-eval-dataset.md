@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/build-failure-corpus/
+  - /eval/calculation-test-oracles-and-data/
+  - /eval/llm-as-a-judge/
 layout: post
 title: "怎样构造一套真正有用的业务 Eval Dataset？"
 date: 2026-09-23 09:25:00 +0800

@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/build-failure-corpus/
+  - /eval/how-to-build-business-eval-dataset/
+  - /eval/eval-ci-quality-gate/
 layout: post
 title: "Offline Eval 和 Online Eval 有什么区别？一套 AI 系统为什么两个都需要"
 date: 2026-09-23 10:10:00 +0800

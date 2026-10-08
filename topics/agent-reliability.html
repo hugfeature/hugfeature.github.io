@@ -1,7 +1,16 @@
 ---
 layout: topic
-title: Agent Reliability
-description: 研究 AI Agent 可靠性：任务结果、执行过程、副作用与恢复机制。
+title: Agent Reliability 问题导航：完成声明与真实结果
+description: 从完成声明、执行偏移和失败复现切入，检查智能体结果是否可信。
 topic: agent-reliability
 permalink: /topics/agent-reliability/
 ---
+
+<p>从当前遇到的问题选读。需要完整学习路线时，可使用页面下方的系列入口。</p>
+<h2>按当前问题选读</h2>
+<ul>
+<li><strong>显示通过，过程却不可靠：</strong><a href="{{ '/agent-reliability/ai-testing/2026/09/21/agent-hidden-failures.html' | relative_url }}">Agent 最危险的不是失败，而是“最终通过，但过程已经失控”</a>。先区分最终结果与执行过程。</li>
+<li><strong>Agent 跳过了必要步骤：</strong><a href="{{ '/reliability/execution-contract-drift/' | relative_url }}">Agent 会跳步骤：从测试用例生成失败到 Execution Contract Drift</a>。定位执行契约与阶段证据。</li>
+<li><strong>完成了，却拿不出证据：</strong><a href="{{ '/harness/agent-evidence-contract/' | relative_url }}">结果正确就够了吗？给 Agent 设计 Evidence Contract</a>。定义可核对的完成条件。</li>
+<li><strong>同类故障反复出现：</strong><a href="{{ '/harness/failure-to-regression-case/' | relative_url }}">一次 Agent 失败，怎么变成一条 Regression Case？</a>。把一次失败转成可复现回归。</li>
+</ul>

@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/what-should-agent-harness-own/
+  - /reliability/execution-contract-drift/
+  - /harness/agent-evidence-contract/
 layout: post
 title: "Agent 为什么需要 Harness：模型负责决策，系统负责约束"
 date: 2026-09-22 16:25:00 +0800

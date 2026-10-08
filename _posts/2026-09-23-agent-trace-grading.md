@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/trace-is-not-just-logs/
+  - /harness/agent-evidence-contract/
+  - /eval/llm-as-a-judge/
 layout: post
 title: "Agent Trace Grading 怎么设计？结果正确，过程也可能已经失控"
 date: 2026-09-23 10:30:00 +0800

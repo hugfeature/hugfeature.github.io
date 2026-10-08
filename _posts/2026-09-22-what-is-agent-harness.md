@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /harness/agent-framework-workflow-runtime-harness/
+  - /harness/why-agent-needs-harness/
+  - /harness/build-minimal-agent-harness/
 layout: post
 title: "Agent Harness 是什么？为什么它正在成为 Agent 工程的关键一层"
 date: 2026-09-22 07:50:00 +0800

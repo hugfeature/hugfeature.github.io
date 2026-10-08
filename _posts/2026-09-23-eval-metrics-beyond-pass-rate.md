@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/how-to-build-business-eval-dataset/
+  - /eval/model-eval-vs-agent-eval/
+  - /eval/eval-ci-quality-gate/
 layout: post
 title: "Eval 指标怎么设计？为什么 Pass Rate 远远不够"
 date: 2026-09-23 10:00:00 +0800
