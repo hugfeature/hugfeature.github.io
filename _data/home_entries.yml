@@ -1,0 +1,12 @@
+- title: AI 生成用例，为什么测不出计算错误？
+  description: 从公式来源、独立预期和数据区分度检查用例是否有效。
+  url: /eval/calculation-test-oracles-and-data/
+- title: 需求不完整，用例生成就必须停吗？
+  description: 区分可评审草稿与正式测试依据，保留未知项及影响范围。
+  url: /eval/test-case-gates-with-incomplete-requirements/
+- title: Agent 卡住或反复重试，怎么办？
+  description: 用进展证据、停止条件与恢复检查约束无人值守执行。
+  url: /harness/bounded-autonomy-for-agents/
+- title: Agent Harness 是什么？
+  description: 从模型调用到工具、状态和执行边界，建立入门认识。
+  url: /harness/what-is-agent-harness/

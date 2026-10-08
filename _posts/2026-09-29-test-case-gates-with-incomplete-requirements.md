@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/test-case-gate-dependency-scope/
+  - /eval/calculation-test-oracles-and-data/
+  - /reliability/execution-contract-drift/
 layout: post
 title: "需求不完整时，测试用例生成的 Gate 应该怎么判？"
 description: "测试用例生成被 Gate 卡住，未必都是模型能力问题。区分输入缺口、执行错误与用例质量，分开管理草稿生成和正式交付，并把未知项纳入覆盖报告。"

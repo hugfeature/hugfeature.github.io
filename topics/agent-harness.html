@@ -1,7 +1,17 @@
 ---
 layout: topic
-title: Agent Harness
-description: 理解 Context、Tool、State 与执行边界，建立可维护的 Agent Harness。
+title: Agent Harness 问题导航：卡住、重试与结果验证
+description: 按执行卡住、工具失败、重复验证和结果缺少证据等问题查找 Agent Harness 文章；入门学习可转到系统教程。
 topic: agent-harness
 permalink: /topics/agent-harness/
 ---
+
+<p>已经遇到执行问题，可以从下面选读；第一次接触 Harness，建议先看<a href="{{ '/harness/' | relative_url }}">按顺序编排的系统教程</a>。</p>
+<h2>按当前问题选读</h2>
+<ul>
+<li><strong>任务停住，需要无人值守继续：</strong><a href="{{ '/harness/bounded-autonomy-for-agents/' | relative_url }}">有界自主运行</a>，检查进展、停止原因和恢复条件。</li>
+<li><strong>工具失败，重试可能重复产生副作用：</strong><a href="{{ '/harness/tool-failure-timeout-retry-budget-side-effect/' | relative_url }}">超时、重试、预算与副作用</a>。</li>
+<li><strong>Agent 说完成了，却没有可靠证据：</strong><a href="{{ '/harness/agent-evidence-contract/' | relative_url }}">设计结果证据契约</a>，明确什么能证明完成。</li>
+<li><strong>不断验证，预算用完仍未交付：</strong><a href="{{ '/harness/verification-loops-and-budget-exhaustion/' | relative_url }}">重复验证与预算耗尽</a>，区分新增证据与重复工作。</li>
+<li><strong>流程被跳过，结果却显示通过：</strong><a href="{{ '/reliability/execution-contract-drift/' | relative_url }}">执行契约与流程偏移</a>。</li>
+</ul>

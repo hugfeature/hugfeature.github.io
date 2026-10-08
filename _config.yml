@@ -11,7 +11,7 @@ author:
   name: hugfeature
   url: https://hugfeature.github.io/about/
 social:
-  name: hugfeature
+  name: runtime质量论
   links:
     - https://github.com/hugfeature
 plugins:
@@ -22,11 +22,14 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-# Paste real verification tokens here after creating the search properties.
+# Google ownership is verified by the existing HTML file.
 webmaster_verifications:
-  google: ""
-  bing: ""
+  bing: "58AE2D56435A76DA1BF1341C2E6930C1"
 defaults:
+  - scope:
+      path: "google6d3ba3d16992c2f2.html"
+    values:
+      sitemap: false
   - scope:
       path: ""
     values:

@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/test-case-gates-with-incomplete-requirements/
+  - /eval/test-case-gate-dependency-scope/
+  - /eval/how-to-build-business-eval-dataset/
 layout: post
 title: "生成了测试用例，为什么还是测不出计算错误？"
 description: "计算类测试首先需要可信的公式与判据，再用能够区分正确和错误算法的数据形成用例。通过合成金额示例，拆解公式获取、独立预期计算和页面执行之间的关系。"

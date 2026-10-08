@@ -1,4 +1,8 @@
 ---
+related_posts:
+  - /eval/test-case-gates-with-incomplete-requirements/
+  - /eval/calculation-test-oracles-and-data/
+  - /harness/agent-evidence-contract/
 layout: post
 title: "测试用例 Agent 的门禁落地：一条需求缺口，应该挡住哪些用例？"
 description: "用一个提交申请的合成示例，说明如何关联需求缺口与测试用例、限制依赖范围，并在规则确认后重新校验，避免局部缺口阻塞全部生成或被悄悄写成确定预期。"
