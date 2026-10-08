@@ -1,0 +1,24 @@
+id,amount,rate,expected_status,expected_tax,purpose
+T01,100,13,OK,13.00,区分漏除100错误
+T02,0,13,OK,0.00,零金额不能区分目标错误
+T03,100,0,OK,0.00,零税率不能区分目标错误
+T04,0.05,10,OK,0.01,半分向上舍入
+T05,100,0.13,OK,0.13,百分数输入语义
+T06,100,,RATE_REQUIRED,,空税率
+T07,100,abc,RATE_FORMAT,,文本税率
+T08,-1,13,AMOUNT_RANGE,,本样例拒绝负金额
+T09,,13,AMOUNT_REQUIRED,,空金额
+T10,100,-1,RATE_RANGE,,负税率
+T11,100,100.01,RATE_RANGE,,税率上界之外
+T12,100,100,OK,100.00,税率上界
+T13,1000000,13,OK,130000.00,金额上界
+T14,1000000.01,13,AMOUNT_RANGE,,金额上界之外
+T15,1.001,13,AMOUNT_SCALE,,金额精度超限
+T16,100,13.001,RATE_SCALE,,税率精度超限
+T17,100,13%,RATE_FORMAT,,不接受百分号
+T18,100,NaN,RATE_FORMAT,,拒绝非有限值
+T19,100,Infinity,RATE_FORMAT,,拒绝无穷值
+T20,100,1e1,RATE_FORMAT,,拒绝科学计数法
+T21,,,AMOUNT_REQUIRED,,两个缺失先报金额
+T22, 100 , 13 ,OK,13.00,去除首尾空白
+T23,abc,13,AMOUNT_FORMAT,,文本金额
