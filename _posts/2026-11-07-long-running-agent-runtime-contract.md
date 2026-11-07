@@ -6,9 +6,9 @@ related_posts:
 layout: post
 title: "长程 Agent 不能只靠一个 completed：把中止、接管与恢复纳入 Runtime 契约"
 description: "结合 Kimi Hosted Agents 与 Qwen Code 的公开工程变化，拆解长程 Agent 的运行生命周期，以及 Harness 应如何验证中止、等待、恢复和交付。"
-date: 2026-11-07 10:00:00 +0800
-updated: 2026-11-07 10:00:00 +0800
-last_modified_at: 2026-11-07 10:00:00 +0800
+date: 2026-11-07 08:00:00 +0800
+updated: 2026-11-07 08:00:00 +0800
+last_modified_at: 2026-11-07 08:00:00 +0800
 categories: [Agent-Harness, Agent-Reliability, Trace-Evidence, Quality-Gate]
 permalink: /harness/long-running-agent-runtime-contract/
 tags: [agent-harness, agent-runtime, agent-reliability, execution-control, recovery, quality-gate]
