@@ -33,7 +33,7 @@ series_order: 20
 
 百度在发布材料中披露，过去一年内部日活 Agent 从 5,000 增至 37,000，每周完成任务从 84,000 增至 100 万，已建立 4,300 个工作空间并沉淀超过 20,000 个组织 Skill。百度还称，通用 Agent DuMate 开放了 Harness Engine 和 Agent API；面向复杂行业运营的 Famou 3.0 将 Agent 平台与 FDE 服务结合，客户覆盖 41 个工业大类中的 25 个。
 
-同场发布的 Token Exchange 以模型指纹、能力测试、性能和可用性验证，以及服务商抽检和调用监控来组织模型服务供需。百度披露该平台已接入 100 多种模型资源，日均调用超过 5,000 万次、Token 调用量超过 7,000 亿。
+同场发布的 Token Exchange 以模型指纹、能力测试、性能和可用性验证，以及服务商抽检和调用监控来组织模型服务供需。百度披露该平台已接入 100 多种模型资源，日均请求超过 5,000 万次、Token 量超过 7,000 亿。
 
 这些数字均来自百度提供的发布材料，属于厂商自报数据，不是独立审计结果。它们可以说明百度正在把组织 Skill、Agent 执行入口、模型服务和 FDE 交付放在同一套企业 AI 叙事中，但不能单独证明这些 Agent 已在所有业务场景稳定运行，也不能证明组织效率提升了多少。
 
@@ -288,6 +288,6 @@ AI4SE 的优势是工程对象相对清晰：需求、代码仓库、提交、�
 - [IBM 与 Microsoft 发布 Imagine Enterprise（2026-11-10）](https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation)
 - [Qwen Code 官方 Releases：v1.0.0-preview、v0.27.2（2026-11-10 至 11-11）](https://github.com/QwenLM/qwen-code/releases)
 - [需求不完整时，测试用例生成的 Gate 应该怎么判？](https://hugfeature.github.io/eval/test-case-gates-with-incomplete-requirements/)
-- [用户授权了 Agent，为什么它仍然没有权力执行？](https://hugfeature.github.io/harness/agent-authorization-lineage/)
+- [用户授权了 Agent，为什么它仍然没有权力执行？](https://github.com/hugfeature/hugfeature.github.io/blob/main/_posts/2026-09-25-agent-authorization-lineage.md)
 - [如何构建业务 Eval Dataset](https://hugfeature.github.io/eval/how-to-build-business-eval-dataset/)
 - [长程 Agent 不能只靠一个 completed：把中止、接管与恢复纳入 Runtime 契约](https://hugfeature.github.io/harness/long-running-agent-runtime-contract/)
