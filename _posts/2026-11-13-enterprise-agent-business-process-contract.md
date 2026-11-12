@@ -1,7 +1,6 @@
 ---
 related_posts:
   - /eval/test-case-gates-with-incomplete-requirements/
-  - /harness/agent-authorization-lineage/
   - /eval/how-to-build-business-eval-dataset/
   - /harness/long-running-agent-runtime-contract/
 layout: post
